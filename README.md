@@ -67,7 +67,7 @@ Device Compatibility: The code detects GPU availability and moves the tensors to
 
     The classification head can be used for any general-purpose sentence classification task. Set the `num_classes` parameter in the model to match the number of output classes.
 
-2. Sample Output (since the head randomly initialized): 
+2. Sample Output (since the head is randomly initialized): 
 
     Input sentences: ['This is a spam message.', 'This is not a spam message.']
 
